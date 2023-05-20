@@ -10,6 +10,7 @@ body {
   font-family: "Inter", sans-serif;
   margin: 40px auto;
 }
+
 h1 {
   font-weight: 800;
   color: var(--very-darkblue);
@@ -36,10 +37,27 @@ nav a {
 nav a:hover {
   color: var(--primary-color2);
 }
+.bright {
+  width: 300px;
+}
+.we-dive {
+  width: 53%;
+}
 .col-sm-4 {
   background: var(--very-darkblue);
   height: 78vh;
   margin-top: 93px;
+}
+.retro-computers {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.text h4 {
+  margin-bottom: 9px;
+}
+.text p {
+  width: 200px;
 }
 .paragraph {
   line-height: 2;
@@ -83,6 +101,7 @@ nav a:hover {
   color: var(--very-darkblue);
   font-weight: 800;
   font-size: 40px;
+  margin-left: 110px;
 }
 strong {
   color: var(--off-white);
