@@ -45,26 +45,21 @@ nav a:hover {
 }
 .col-sm-4 {
   background: var(--very-darkblue);
-  height: 78vh;
+  height: 50vh;
   margin-top: 93px;
 }
-.retro-computers {
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
+.col-sm-2 img {
+  padding-left: 50px;
+  padding-right: 0;
 }
-.text h4 {
-  margin-bottom: 9px;
-}
-.text p {
-  width: 200px;
-}
+
 .paragraph {
   line-height: 2;
   color: var(--grayish-blue);
 }
 .p-heading1 {
   color: var(--primary-color1);
+  margin-bottom: 50px;
 }
 .p-heading2,
 .p-heading3,
@@ -78,6 +73,7 @@ nav a:hover {
   color: var(--primary-color1);
   cursor: pointer;
 }
+
 .p-heading5 {
   font-weight: bold;
   color: var(--very-darkblue);
@@ -106,15 +102,43 @@ nav a:hover {
 strong {
   color: var(--off-white);
 }
-.footnotes0 {
-  padding-right: 0;
-  margin-right: 0;
-}
-@media (max-width: 375px) {
+
+@media (max-width: 900px) {
   body {
     display: block;
   }
-  ul a {
-    display: block;
+  .logo-w {
+    color: var(--very-darkblue);
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 0;
+  }
+  ul {
+    display: flex;
+    margin-left: 300px;
+  }
+  li {
+    width: 70px;
+    gap: 15%;
+    font-size: 10px;
+  }
+  strong {
+    font-size: 12px;
+    word-spacing: 5px;
+  }
+  .btn {
+    padding: 7px 40px;
+  }
+  .col-sm-4 {
+    background: var(--very-darkblue);
+    height: 50vh;
+    margin-top: 5px;
+    margin-bottom: 100px;
+  }
+  .col-sm-2 img {
+    display: inline;
+    padding: 0;
+    padding-left: 0;
+    margin: 0;
   }
 }
