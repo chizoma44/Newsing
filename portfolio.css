@@ -46,6 +46,7 @@ nav a:hover {
 .col-sm-4 {
   background: var(--very-darkblue);
   width: 300px;
+  height: fit-content;
   margin-top: 93px;
 }
 .col-md-2 img {
