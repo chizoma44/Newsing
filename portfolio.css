@@ -53,7 +53,6 @@ nav a:hover {
   padding-left: 50px;
   padding-right: 0;
 }
-
 .paragraph {
   line-height: 1.5;
   color: var(--grayish-blue);
@@ -117,6 +116,7 @@ strong {
   h4 {
     font-size: 18px;
     opacity: 0.8;
+    margin-left: 200px;
   }
   ul {
     display: flex;
@@ -147,22 +147,25 @@ strong {
     margin-bottom: 100px;
   }
   .col-md-2 img {
-    display: flex;
     width: 70px;
     padding: 0;
     padding-left: 0;
     padding-right: 0;
     margin: 0;
   }
-  .retro-computers {
-    display: flex;
-    flex-direction: row;
-    gap: 2%;
-  }
-  .text h4 {
-    margin-bottom: 9px;
+  .col-md-2 {
+    display: -moz-grid-line;
   }
   .text p {
     width: 200px;
+  }
+  p.p-heading5 {
+    margin-left: 200px;
+  }
+  .last-row-paragraphs {
+    margin-left: 200px;
+    opacity: 0.9;
+  }
+  .retro-computers img {
   }
 }
