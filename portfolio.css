@@ -111,7 +111,7 @@ strong {
 
 @media (max-width: 900px) {
   body {
-    display: block;
+    justify-content: center;
   }
   h4 {
     font-size: 18px;
@@ -134,30 +134,35 @@ strong {
   .logo-w {
     color: var(--very-darkblue);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 0;
   }
   .btn {
-    padding: 7px 40px;
+    display: inline-block;
+    justify-self: center;
+    text-decoration: none;
   }
   .col-sm-4 {
     background: var(--very-darkblue);
-    width: 250px;
+    width: 100%;
+    height: auto;
     margin-top: 5px;
     margin-bottom: 100px;
   }
+  .col-md-2 {
+    display: block;
+    justify-content: center;
+  }
   .col-md-2 img {
-    width: 70px;
+    width: 80px;
     padding: 0;
     padding-left: 0;
     padding-right: 0;
     margin: 0;
   }
-  .col-md-2 {
-    display: -moz-grid-line;
-  }
+
   .text p {
-    width: 200px;
+    width: 50%;
   }
   p.p-heading5 {
     margin-left: 200px;
@@ -167,5 +172,27 @@ strong {
     opacity: 0.9;
   }
   .retro-computers img {
+  }
+
+  /* Structure Styling */
+
+  #mobile-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .bright {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 1em 0;
+  }
+  p {
+    display: block;
+    justify-self: center;
   }
 }
