@@ -190,6 +190,7 @@ strong {
   .bright {
     display: block;
     justify-content: center;
+    text-align: center;
     width: 100%;
     height: auto;
     margin: 0;
