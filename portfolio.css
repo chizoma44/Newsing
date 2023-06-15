@@ -166,11 +166,22 @@ strong {
   }
   .btn {
     display: inline-block;
-    justify-self: center;
+    justify-content: center;
     text-decoration: none;
+  }
+  .col-md-8 {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
   .col-sm-4 {
     background: var(--very-darkblue);
+    display: block;
+    align-content: center;
+    text-align: center;
     width: 100%;
     height: auto;
     margin-top: 5px;
@@ -210,9 +221,113 @@ strong {
   .last-section {
     display: block;
     justify-content: center;
+    align-content: center;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
+  }
+
+  .grid img {
+    padding-bottom: 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    margin-left: 300px;
+  }
+  li {
+    width: 70px;
+    gap: 15%;
+    font-size: 10px;
+  }
+  strong {
+    font-size: 12px;
+    word-spacing: 5px;
+  }
+  .logo-w {
+    color: var(--very-darkblue);
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 0;
+  }
+  .btn {
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .col-md-8 {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-sm-4 {
+    background: var(--very-darkblue);
+    display: block;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 100px;
+  }
+
+  /* Structure Styling */
+
+  #mobile-image {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .bright {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 1em 0;
+  }
+  p,
+  .we-dive {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .last-section {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid img {
+    padding-bottom: 0;
   }
 }
