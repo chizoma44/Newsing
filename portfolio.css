@@ -195,9 +195,15 @@ strong {
     margin: 0;
     padding: 1em 0;
   }
-  p {
+  p,
+  .we-dive {
     display: block;
-    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
 
   .last-section {
